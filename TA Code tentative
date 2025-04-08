@@ -1,9 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.cp1.payrollsystemformotorph;
 
+package com.cp1.payrollsystemformotorph;
 
 //Imports for handling excel, input, date and time formatting
 import org.apache.poi.ss.usermodel.*;
@@ -19,11 +15,6 @@ import java.util.*;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDate;
-
-/**
- *
- * @author athaliah
- */
 
 public class Task10 {
     
@@ -138,8 +129,6 @@ public class Task10 {
             return "Unknown Date Format";
         }
     }
-
-
             
     // Inserting the Database for the Attendance Record
         public static Map<String,Map<String, Double>> getWorkHoursPerWeek(String filePath) {
@@ -253,7 +242,4 @@ public class Task10 {
         }
     }
 }
-            
-
-            
     
