@@ -1,9 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.cp1.payrollsystemformotorph;
-
 
 //Imports for handling excel, input, date and time formatting
 import org.apache.poi.ss.usermodel.*;
@@ -21,11 +15,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.text.DecimalFormat;
 
-
-/**
- *
- * @author athaliah
- */
 
 public class PayrollSystemForMotorPH {
     
